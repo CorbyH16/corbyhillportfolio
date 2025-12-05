@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    font-size: 200%;
+    background-color: #111;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.menu{
+    font-size: 60%;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
