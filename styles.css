@@ -4,18 +4,26 @@ body{
 }
 
 header{
-    font-size: 200%;
-    background-color: #111;
-    padding: 10px 20px;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
     display: flex;
 }
 
 .menu{
-    font-size: 60%;
+    font-style: italic;
+    text-align: center;
+    font-size: 120%;
     list-style-type: none;
     display: flex;
-    gap: 30px;
+    gap: 50px;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -5px;
+    margin-left: 40px;
+    font-size: 500%;
+    text-align: center;
+
 }
 
