@@ -4,9 +4,13 @@ body{
 }
 
 header{
-    margin-top: 50px;
-    justify-content: center;
+    header {
     display: flex;
+    justify-content: space-between;  
+    align-items: center;            
+    padding: 20px 125px;              
+}
+
 }
 
 .menu{
@@ -18,39 +22,38 @@ header{
     gap: 50px;
 }
 
-h1{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: -5px;
-    margin-left: 40px;
-    font-size: 500%;
-    text-align: center;
-
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; 
-    padding: 20px;
-    padding-right: -200px;
-    margin-top: 150px;
-}
-
-.grid img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.Repetition{
+.myname{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 400%;
+      justify-content: left;
+    display: flex;
    
-    
+
 }
 
-.Space{
-    margin-left: 50px;
+.Emphasis img, .Space img, .Repetition img {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 600px;   
+    height: auto;
+    border-radius: 10px;   
 }
 
-.Emphasis{
-    margin-left: 30px;
-    scale: 0.95;
+.col-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.first{
+
+}
+
+.second{
+   
+}
+
+.third{
+    scale: 1.05;
+}
+
