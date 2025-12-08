@@ -4,17 +4,17 @@ body{
 }
 
 header{
-    header {
+    
     display: flex;
     justify-content: space-between;  
     align-items: center;            
     padding: 20px 75px;              
 }
 
-}
+
 
 .menu{
-   
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: center;
     font-size: 120%;
@@ -56,18 +56,37 @@ header{
     align-items: center;
 }
 
-.first{
 
-}
 
-.second{
-   
-}
-
-.third{
-    scale: 1.05;
+.Space{
+    margin-top: 25px;
 }
 
 .aboutme{
-    padding: 0px 60px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
 }
+
+.col-left{
+    margin-right: 30px;
+}
+
+.col-right{
+
+    margin-left: 30px;
+}
+
+.aboutlogo{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    scale: 3;
+    margin-top: 60px;
+}
+
