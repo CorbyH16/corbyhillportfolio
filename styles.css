@@ -99,6 +99,26 @@ header {
     
 }
 
+@media (max-width: 768px) {
+    .aboutme {
+        display: flex;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+
+    .robottext {
+        display: flex;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 0.9rem;
+        
+    }
+}
+
 
 
 
