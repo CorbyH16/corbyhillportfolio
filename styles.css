@@ -108,16 +108,15 @@ header {
         
         
     }
+}
 
-    .robottext {
-        display: flex;
-        text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 0.9rem;
-        
+@media (max-width: 768px) {
+    .myname {
+        font-size: 200%;
     }
 }
+
+
 
 
 
