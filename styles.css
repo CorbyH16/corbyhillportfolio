@@ -79,6 +79,9 @@ header {
     
 }
 
+.reflectionlogo {
+    margin-top: -50px;
+}
 
 
 
@@ -90,10 +93,12 @@ header {
 }
 
 .artworkpage{
-    
-    scale: 0.75;
+    padding: 5% 10%;
 }
 
+.Space{
+    margin-top: -10px;
+}
 
 
 
