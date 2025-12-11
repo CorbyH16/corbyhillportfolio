@@ -4,6 +4,8 @@ body {
     color: white;
 }
 
+
+
 header {
 
     display: flex;
@@ -85,6 +87,11 @@ header {
     margin: 0 auto;
     font-family: "century-gothic", sans-serif;
     line-height: 1.5;
+}
+
+.artworkpage{
+    scale: 100%;
+    scale: 0.75;
 }
 
 
