@@ -104,6 +104,19 @@ header{
     scale: 3;
     margin-top: 60px;
     text-decoration: underline;
+
+}
+
+.reflectionlogo{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "futura-100", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    scale: 3;
+    margin-top: -50px;
+    text-decoration: underline;
 }
 
 .fourth{
