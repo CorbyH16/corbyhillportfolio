@@ -10,10 +10,6 @@ header {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    flex-wrap: wrap; 
-
-    
-    
     
 }
 
@@ -54,19 +50,7 @@ header {
 }
 
 
-.Emphasis img, .Space img, .Repetition img {
-    margin-top: 50px;
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    
-}
 
-.col-sm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .Space {
     margin-top: 25px;
@@ -84,13 +68,7 @@ header {
 }
 
 
-.col-left {
-    margin: 0;
-}
 
-.col-right {
-    margin: 0;
-}
 
 
 .aboutlogo, .reflectionlogo {
@@ -107,10 +85,7 @@ header {
 }
 
 
-.fourth {
-    scale: 0.6;
-    margin: 0 auto;
-}
+
 
 .robottext {
     padding: 20px;
@@ -120,71 +95,5 @@ header {
 }
 
 
-
-@media (max-width: 768px) {
-
-    header {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px 10px;
-    }
-
-    .myname {
-        font-size: 2rem;
-        justify-content: center;
-    }
-
-    .menu {
-        gap: 10px;
-        font-size: 1rem;
-    }
-
-    .reflectionlogo {
-        font-size: 1.6rem;
-    
-    }
-
-    .aboutme {
-        padding: 15px;
-        justify-content: center;
-    }
-
-    .robottext {
-        padding: 15px;
-        margin: 0;
-    }
-}
-
-
-
-@media (min-width: 992px) {
-    .aboutme {
-        padding: 40px 200px;
-    }
-}
-
-@media (min-width: 1400px) {
-    .aboutme {
-        padding: 40px 350px; 
-    }
-}
-
-
-
-img.img-fluid {
-    border-radius: 10px;
-}
-
-
-.fourth-img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-.robottext {
-    padding: 10px;
-    line-height: 1.5;
-}
 
 
