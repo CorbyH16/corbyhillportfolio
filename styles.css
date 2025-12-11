@@ -163,3 +163,21 @@ header {
         padding: 40px 350px; 
     }
 }
+
+
+img.img-fluid {
+    border-radius: 10px;
+}
+
+
+.fourth-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.robottext {
+    padding: 10px;
+    line-height: 1.5;
+}
+
